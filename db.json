@@ -89,6 +89,62 @@
                 "colors" : ["Black", "Red", "White"],
                 "price" : "15.00",
                 "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-1",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan1.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "30.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-2",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan2.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "35.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-3",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan3.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "60.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-4",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan4.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "30.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-5",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan5.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "20.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-6",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan6.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "40.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "cardigan-7",
+                "title" : "Cardigan",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan7.png",
+                "colors" : ["Black", "Brown", "Pink"],
+                "price" : "30.00",
+                "category" : "Women's Clothing"
             }
         ],
         "men" : [
@@ -300,6 +356,62 @@
     ],
 
     "products" : [
+        {
+            "id" : "cardigan-1",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan1.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-2",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan2.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "35.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-3",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan3.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "60.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-4",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan4.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-5",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan5.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "20.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-6",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan6.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "40.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-7",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan7.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
         {
             "id" : "accessory-1",
             "title" : "Floral Clutch Purse",
@@ -515,62 +627,7 @@
             "colors" : ["Black", "Red", "White"],
             "price" : "15.00",
             "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-1",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan1.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "30.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-2",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan2.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "35.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-3",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan3.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "60.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-4",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan4.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "30.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-5",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan5.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "20.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-6",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan6.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "40.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "cardigan-7",
-            "title" : "Cardigan",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan7.png",
-            "colors" : ["Black", "Brown", "Pink"],
-            "price" : "30.00",
-            "category" : "Women's Clothing"
         }
+        
     ]
 }
