@@ -21,7 +21,7 @@
         {
             "id" : "1",
             "title" : "Ladies Button Dress",
-            "image" : "./assets/images/women1.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women1.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
@@ -29,7 +29,7 @@
         {
             "id" : "2",
             "title" : "Ladies Romper",
-            "image" : "../assets/images/women2.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women2.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
@@ -53,7 +53,7 @@
         {
             "id" : "gents-5",
             "title" : "Gents Black Demin",
-            "image" : "assets/images/men1.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men1.png",
             "colors" : ["Black", "White", "Blue"],
             "price" : "£23",
             "category" : "Men's Clothing"
@@ -61,7 +61,7 @@
         {
             "id" : "gents-6",
             "title" : "Gents Leather Jacket",
-            "image" : "assets/images/men2.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men2.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£50",
             "category" : "Men's Clothing"
@@ -69,7 +69,7 @@
         {
             "id" : "gents-7",
             "title" : "Gents Denim Jacket",
-            "image" : "assets/images/men3.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men3.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£20",
             "category" : "Men's Clothing"
@@ -77,7 +77,7 @@
         {
             "id" : "gents-8",
             "title" : "Gents Button Shirt",
-            "image" : "assets/images/men4.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men4.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£25",
             "category" : "Men's Clothing"
