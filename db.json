@@ -303,7 +303,7 @@
         {
             "id" : "accessory-1",
             "title" : "Floral Clutch Purse",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory1.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories1.png",
             "colors" : ["Grey", "Pink", "Beige"],
             "price" : "50.00",
             "category" : "Accessories"
@@ -311,7 +311,7 @@
         {
             "id" : "accessory-2",
             "title" : "Leather Shoulder Purse",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory2.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories2.png",
             "colors" : ["Black", "Brown"],
             "price" : "60.00",
             "category" : "Accessories"
@@ -319,7 +319,7 @@
         {
             "id" : "accessory-3",
             "title" : "Leather Backpack Purse",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory3.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories3.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "40.00",
             "category" : "Accessories"
@@ -327,7 +327,7 @@
         {
             "id" : "accessory-4",
             "title" : "Wicker Purse",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory4.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories4.png",
             "colors" : ["Natural", "Dyed"],
             "price" : "25.00",
             "category" : "Accessories"
@@ -335,7 +335,7 @@
         {
             "id" : "accessory-5",
             "title" : "Stylish Backpack",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory5.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories5.png",
             "colors" : ["Sapphire", "Pink", "Emerald"],
             "price" : "30.00",
             "category" : "Accessories"
@@ -343,7 +343,7 @@
         {
             "id" : "accessory-6",
             "title" : "Metal-rimmed Sunglasses",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory6.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories6.png",
             "colors" : ["Gold", "Rose-Gold", "Silver"],
             "price" : "50.00",
             "category" : "Accessories"
@@ -351,7 +351,7 @@
         {
             "id" : "accessory-7",
             "title" : "Stylish Leather Clutch",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory7.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories7.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "60.00",
             "category" : "Accessories"
@@ -359,7 +359,7 @@
         {
             "id" : "accessory-8",
             "title" : "Leather Watch",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory8.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessories8.png",
             "colors" : ["Black", "Brown", "Pink"],
             "price" : "30.00",
             "category" : "Accessories"
