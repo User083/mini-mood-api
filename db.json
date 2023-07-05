@@ -1,7 +1,29 @@
 {
     "categories" : [
         {
-            "id" : "women"
+            "id" : "women",
+            "title" : "Women's Clothing",
+            "image" : ""
+        },
+        {
+            "id" : "men",
+            "title" : "Men's Clothing",
+            "image" : ""
+        },
+        {
+            "id" : "accessories",
+            "title" : "Accessories",
+            "image" : ""
+        }
+    ],
+
+    "Clothing" : [
+        {
+            "id" : "125",
+            "title" : "Ladies Jumper",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "£23",
+            "category" : "Women's Clothing"
         }
     ]
 }
