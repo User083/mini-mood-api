@@ -37,7 +37,7 @@
         {
             "id" : "3",
             "title" : "Ladies Sack Dress",
-            "image" : "/assets/images/women3.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women3.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
@@ -45,7 +45,7 @@
         {
             "id" : "4",
             "title" : "Ladies V-Neck Summer Dress",
-            "image" : "/assets/images/women4.png",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women4.png",
             "colors" : ["Rust", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
