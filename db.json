@@ -299,15 +299,15 @@
     "cardigans" : [
         {
             "id" : "cardigan-1",
-            "title" : "Cardigan",
+            "title" : "Woolly Cardigan",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan1.png",
-            "colors" : ["Black", "Brown", "Pink"],
+            "colors" : ["Black", "Brown", "Beige"],
             "price" : "30.00",
             "category" : "Women's Clothing"
         },
         {
             "id" : "cardigan-2",
-            "title" : "Cardigan",
+            "title" : "Woollen Vest",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan2.png",
             "colors" : ["Black", "Brown", "Pink"],
             "price" : "30.00",
@@ -315,7 +315,7 @@
         },
         {
             "id" : "cardigan-3",
-            "title" : "Cardigan",
+            "title" : "Off-Shoulder Knitted Cardigan",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan3.png",
             "colors" : ["Black", "Brown", "Pink"],
             "price" : "30.00",
@@ -323,7 +323,7 @@
         },
         {
             "id" : "cardigan-4",
-            "title" : "Cardigan",
+            "title" : "Striped Cardigan",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan4.png",
             "colors" : ["Black", "Brown", "Pink"],
             "price" : "30.00",
@@ -339,17 +339,17 @@
         },
         {
             "id" : "cardigan-6",
-            "title" : "Cardigan",
+            "title" : "Ultra Warm Jumper",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan6.png",
-            "colors" : ["Black", "Brown", "Pink"],
+            "colors" : ["Black", "White", "Pink"],
             "price" : "30.00",
             "category" : "Women's Clothing"
         },
         {
             "id" : "cardigan-7",
-            "title" : "Cardigan",
+            "title" : "Cropped Cardigan",
             "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan7.png",
-            "colors" : ["Black", "Brown", "Pink"],
+            "colors" : ["Black", "Brown", "Blue"],
             "price" : "30.00",
             "category" : "Women's Clothing"
         }
@@ -629,5 +629,24 @@
             "category" : "Women's Clothing"
         }
         
+    ],
+
+    "cart" : [
+        {
+            "id" : "ladies-9",
+            "title" : "Ladies Crop Top",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women9.png",
+            "colors" : ["Black", "Red", "White"],
+            "price" : "15.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-5",
+            "title" : "Ladies Stylish Sweats",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women5.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "25.00",
+            "category" : "Women's Clothing"
+        }
     ]
 }
