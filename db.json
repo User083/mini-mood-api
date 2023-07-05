@@ -21,7 +21,7 @@
         {
             "id" : "1",
             "title" : "Ladies Button Dress",
-            "image" : "/assets/images/women1.png",
+            "image" : "./assets/images/women1.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
@@ -29,7 +29,7 @@
         {
             "id" : "2",
             "title" : "Ladies Romper",
-            "image" : "/assets/images/women2.png",
+            "image" : "../assets/images/women2.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£23",
             "category" : "Women's Clothing"
@@ -61,7 +61,7 @@
         {
             "id" : "gents-6",
             "title" : "Gents Leather Jacket",
-            "image" : "images/men2.png",
+            "image" : "assets/images/men2.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£50",
             "category" : "Men's Clothing"
@@ -69,7 +69,7 @@
         {
             "id" : "gents-7",
             "title" : "Gents Denim Jacket",
-            "image" : "men3.png",
+            "image" : "assets/images/men3.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£20",
             "category" : "Men's Clothing"
@@ -77,7 +77,7 @@
         {
             "id" : "gents-8",
             "title" : "Gents Button Shirt",
-            "image" : "/men4.png",
+            "image" : "assets/images/men4.png",
             "colors" : ["Blue", "Red", "Yellow"],
             "price" : "£25",
             "category" : "Men's Clothing"
