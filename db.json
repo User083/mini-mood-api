@@ -17,136 +17,138 @@
         }
     ],
 
-    "clothing" : [
-        {
-            "id" : "ladies-1",
-            "title" : "Ladies Button Dress",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women1.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "25.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-2",
-            "title" : "Ladies Romper",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women2.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "30.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-3",
-            "title" : "Ladies Sack Dress",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women3.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "15.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-4",
-            "title" : "Ladies V-Neck Summer Dress",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women4.png",
-            "colors" : ["Rust", "Red", "Yellow"],
-            "price" : "23.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-5",
-            "title" : "Ladies Stylish Sweats",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women5.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "25.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-6",
-            "title" : "Ladies Pastel Coat",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women6.png",
-            "colors" : ["Blue", "Pink", "Beige"],
-            "price" : "90.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-7",
-            "title" : "Ladies Pencil Dress",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women7.png",
-            "colors" : ["Navy", "Black", "Grey"],
-            "price" : "70.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "ladies-8",
-            "title" : "Ladies Freedom T",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women8.png",
-            "colors" : ["Blue", "Red", "White"],
-            "price" : "25.00",
-            "category" : "Women's Clothing"
-        },
-        {
-            "id" : "gents-1",
-            "title" : "Gents Black Demin",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men1.png",
-            "colors" : ["Black", "White", "Blue"],
-            "price" : "23.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-2",
-            "title" : "Gents Leather Jacket",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men2.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "50.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-3",
-            "title" : "Gents Denim Jacket",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men3.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "20.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-4",
-            "title" : "Gents Button Shirt",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men4.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "25.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-5",
-            "title" : "Gents Flannel Shirt",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men5.png",
-            "colors" : ["Blue", "Red", "Yellow"],
-            "price" : "25.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-6",
-            "title" : "Gents Suede Jacket",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men6.png",
-            "colors" : ["Brown", "Black", "Beige"],
-            "price" : "60.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-7",
-            "title" : "Gents Two-Piece Suit",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men7.png",
-            "colors" : ["Blue", "Black", "White"],
-            "price" : "500.00",
-            "category" : "Men's Clothing"
-        },
-        {
-            "id" : "gents-8",
-            "title" : "Gents Coat",
-            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men8.png",
-            "colors" : ["Grey", "Black", "Beige"],
-            "price" : "60.00",
-            "category" : "Men's Clothing"
-        }
-    ],
+        "women" : [
+            {
+                "id" : "ladies-1",
+                "title" : "Ladies Button Dress",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women1.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "25.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-2",
+                "title" : "Ladies Romper",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women2.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "30.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-3",
+                "title" : "Ladies Sack Dress",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women3.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "15.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-4",
+                "title" : "Ladies V-Neck Summer Dress",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women4.png",
+                "colors" : ["Rust", "Red", "Yellow"],
+                "price" : "23.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-5",
+                "title" : "Ladies Stylish Sweats",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women5.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "25.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-6",
+                "title" : "Ladies Pastel Coat",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women6.png",
+                "colors" : ["Blue", "Pink", "Beige"],
+                "price" : "90.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-7",
+                "title" : "Ladies Pencil Dress",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women7.png",
+                "colors" : ["Navy", "Black", "Grey"],
+                "price" : "70.00",
+                "category" : "Women's Clothing"
+            },
+            {
+                "id" : "ladies-8",
+                "title" : "Ladies Freedom T",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women8.png",
+                "colors" : ["Blue", "Red", "White"],
+                "price" : "25.00",
+                "category" : "Women's Clothing"
+            }
+        ],
+        "men" : [
+            {
+                "id" : "gents-1",
+                "title" : "Gents Black Demin",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men1.png",
+                "colors" : ["Black", "White", "Blue"],
+                "price" : "23.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-2",
+                "title" : "Gents Leather Jacket",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men2.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "50.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-3",
+                "title" : "Gents Denim Jacket",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men3.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "20.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-4",
+                "title" : "Gents Button Shirt",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men4.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "25.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-5",
+                "title" : "Gents Flannel Shirt",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men5.png",
+                "colors" : ["Blue", "Red", "Yellow"],
+                "price" : "25.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-6",
+                "title" : "Gents Suede Jacket",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men6.png",
+                "colors" : ["Brown", "Black", "Beige"],
+                "price" : "60.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-7",
+                "title" : "Gents Two-Piece Suit",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men7.png",
+                "colors" : ["Blue", "Black", "White"],
+                "price" : "500.00",
+                "category" : "Men's Clothing"
+            },
+            {
+                "id" : "gents-8",
+                "title" : "Gents Coat",
+                "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men8.png",
+                "colors" : ["Grey", "Black", "Beige"],
+                "price" : "60.00",
+                "category" : "Men's Clothing"
+            }
+        ],
     "accessories" : [
         {
             "id" : "accessory-1",
@@ -215,6 +217,257 @@
     ],
 
     "cardigans" : [
+        {
+            "id" : "cardigan-1",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan1.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-2",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan2.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-3",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan3.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-4",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan4.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-5",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan5.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-6",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan6.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "cardigan-7",
+            "title" : "Cardigan",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/cardigan7.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        }
+    ],
+
+    "products" : [
+        {
+            "id" : "accessory-1",
+            "title" : "Floral Clutch Purse",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory1.png",
+            "colors" : ["Grey", "Pink", "Beige"],
+            "price" : "50.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-2",
+            "title" : "Leather Shoulder Purse",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory2.png",
+            "colors" : ["Black", "Brown"],
+            "price" : "60.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-3",
+            "title" : "Leather Backpack Purse",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory3.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "40.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-4",
+            "title" : "Wicker Purse",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory4.png",
+            "colors" : ["Natural", "Dyed"],
+            "price" : "25.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-5",
+            "title" : "Stylish Backpack",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory5.png",
+            "colors" : ["Sapphire", "Pink", "Emerald"],
+            "price" : "30.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-6",
+            "title" : "Metal-rimmed Sunglasses",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory6.png",
+            "colors" : ["Gold", "Rose-Gold", "Silver"],
+            "price" : "50.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-7",
+            "title" : "Stylish Leather Clutch",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory7.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "60.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "accessory-8",
+            "title" : "Leather Watch",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/accessory8.png",
+            "colors" : ["Black", "Brown", "Pink"],
+            "price" : "30.00",
+            "category" : "Accessories"
+        },
+        {
+            "id" : "gents-1",
+            "title" : "Gents Black Demin",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men1.png",
+            "colors" : ["Black", "White", "Blue"],
+            "price" : "23.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-2",
+            "title" : "Gents Leather Jacket",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men2.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "50.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-3",
+            "title" : "Gents Denim Jacket",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men3.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "20.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-4",
+            "title" : "Gents Button Shirt",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men4.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "25.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-5",
+            "title" : "Gents Flannel Shirt",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men5.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "25.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-6",
+            "title" : "Gents Suede Jacket",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men6.png",
+            "colors" : ["Brown", "Black", "Beige"],
+            "price" : "60.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-7",
+            "title" : "Gents Two-Piece Suit",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men7.png",
+            "colors" : ["Blue", "Black", "White"],
+            "price" : "500.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "gents-8",
+            "title" : "Gents Coat",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/men8.png",
+            "colors" : ["Grey", "Black", "Beige"],
+            "price" : "60.00",
+            "category" : "Men's Clothing"
+        },
+        {
+            "id" : "ladies-1",
+            "title" : "Ladies Button Dress",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women1.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "25.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-2",
+            "title" : "Ladies Romper",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women2.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "30.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-3",
+            "title" : "Ladies Sack Dress",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women3.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "15.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-4",
+            "title" : "Ladies V-Neck Summer Dress",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women4.png",
+            "colors" : ["Rust", "Red", "Yellow"],
+            "price" : "23.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-5",
+            "title" : "Ladies Stylish Sweats",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women5.png",
+            "colors" : ["Blue", "Red", "Yellow"],
+            "price" : "25.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-6",
+            "title" : "Ladies Pastel Coat",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women6.png",
+            "colors" : ["Blue", "Pink", "Beige"],
+            "price" : "90.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-7",
+            "title" : "Ladies Pencil Dress",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women7.png",
+            "colors" : ["Navy", "Black", "Grey"],
+            "price" : "70.00",
+            "category" : "Women's Clothing"
+        },
+        {
+            "id" : "ladies-8",
+            "title" : "Ladies Freedom T",
+            "image" : "https://burgundy-millipede-cuff.cyclic.app/assets/images/women8.png",
+            "colors" : ["Blue", "Red", "White"],
+            "price" : "25.00",
+            "category" : "Women's Clothing"
+        },
         {
             "id" : "cardigan-1",
             "title" : "Cardigan",
