@@ -10,11 +10,7 @@ const middlewares = jsonServer.defaults()
 server.use(cors())
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
-  // res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-})
+
 server.use(router)
 
 const PORT = 8000
@@ -24,3 +20,12 @@ const PORT = 8000
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
 })
+
+
+  server.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
