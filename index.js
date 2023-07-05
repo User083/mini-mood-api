@@ -1,6 +1,7 @@
 const jsonServer = require('json-server')
 const cors = require('cors')
 const path = require('path')
+// const routes = require('./routes.json')
 
 const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
@@ -18,6 +19,8 @@ server.use(function (req, res, next) {
   });
 
 const PORT = 8000
+
+// server.use(jsonServer.rewriter(routes))
 
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
