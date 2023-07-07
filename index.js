@@ -8,13 +8,19 @@ const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
-server.use(cors())
+
+server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:5173')
+  res.header('Access-Control-Allow-Headers', '*')
+  next()
+})
+// server.use(cors())
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
 
 server.use(router)
 
-server.options("/cart", cors())
+
 
 const PORT = 8000
 
