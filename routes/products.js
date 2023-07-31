@@ -12,6 +12,15 @@ router.get("/", async (req, res) => {
   }
 });
 
+//GET product by ID
+router.get("/:id", getProduct, async (req, res) => {
+  try {
+    res.status(200).json(await res.product);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
 //POST new
 router.post("/", async (req, res) => {
   const product = new Products({
@@ -24,5 +33,20 @@ router.post("/", async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 });
+
+async function getProduct(req, res, next) {
+  let product;
+  try {
+    product = await Products.findById(req.params.id);
+    if (product == null) {
+      return res.status(404).json({ message: "Product not found" });
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+
+  res.product = product;
+  next();
+}
 
 module.exports = router;
