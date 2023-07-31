@@ -1,18 +1,29 @@
-require("dotenv").config()
-const express = require("express")
-const app = express()
-const mongoose = require("mongoose")
+require("dotenv").config();
+const express = require("express");
+const app = express();
+const mongoose = require("mongoose");
+const productsRouter = require("./routes/products");
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
-const db = mongoose.connection
-
-db.on("error", (error)=> console.error(error))
-app.use(express.json())
+async function connect() {
+  try {
+    await mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+    console.log("Connected to db");
+  } catch (error) {
+    console.log(error);
+  }
+}
+app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Welcome")
-})
+  res.send("Welcome to the mini-mood API");
+});
+
+app.use("/products", productsRouter);
+
+connect();
 
 const port = 8000;
 
-app.listen(port, ()=> console.log("Server running on http://localhost:" + port)) 
+app.listen(port, () =>
+  console.log("Server running on http://localhost:" + port)
+);
