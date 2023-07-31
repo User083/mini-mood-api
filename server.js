@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const productsRouter = require("./routes/products");
+const cartRouter = require("./routes/cart");
 
 async function connect() {
   try {
@@ -19,6 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/products", productsRouter);
+app.use("/cart", cartRouter);
 
 connect();
 

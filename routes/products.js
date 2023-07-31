@@ -8,8 +8,7 @@ router.get("/", async (req, res) => {
     const products = await Products.find();
     res.status(200).json(products);
   } catch (error) {
-    res.send(`An error has occurred => ${error}`);
-    console.log(error);
+    res.status(400).json({ message: error.message });
   }
 });
 
@@ -20,9 +19,9 @@ router.post("/", async (req, res) => {
   });
   try {
     const result = await product.save();
-    res.json(result);
+    res.status(201).json(result);
   } catch (error) {
-    res.send(`An error has occurred => ${error}`);
+    res.status(400).json({ message: error.message });
   }
 });
 
