@@ -4,6 +4,7 @@ const app = express();
 const mongoose = require("mongoose");
 const productsRouter = require("./routes/products");
 const cartRouter = require("./routes/cart");
+const cors = require("cors");
 
 async function connect() {
   try {
@@ -13,6 +14,7 @@ async function connect() {
     console.log(error);
   }
 }
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
