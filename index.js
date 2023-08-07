@@ -1,14 +1,8 @@
-// import express from "express";
-// import "dotenv/config";
-// import cors from "cors";
-// import mongoose from "mongoose";
-// import * as productsRouter from "./routes/products.cjs";
-// import * as cartRouter from "./routes/cart.cjs";
 const express = require("express");
-const app = express();
+
 const mongoose = require("mongoose");
 require("dotenv").config();
-
+const app = express();
 const productsRouter = require("./routes/products.js");
 const cartRouter = require("./routes/cart.js");
 const PORT = process.env.PORT || 3000;
