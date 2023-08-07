@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "nodemon -r dotenv/config index.js",
+    "dev": "nodemon -r dotenv/config server.js",
     "build" : "npm install",
-    "start": "node server.js"
+    "start": "node -r npm install server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
