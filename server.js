@@ -11,7 +11,6 @@ async function connect() {
   try {
     await mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
     console.log("Connected to db");
-    app.listen(PORT, () => console.log("Server running on " + PORT));
   } catch (error) {
     console.log(error);
   }
@@ -26,3 +25,4 @@ app.get("/", (req, res) => {
 
 app.use("/products", productsRouter);
 app.use("/cart", cartRouter);
+app.listen(PORT, () => console.log("Server running on " + PORT));
