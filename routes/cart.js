@@ -1,7 +1,11 @@
 const express = require("express");
-const router = express.Router();
-const Cart = require("../model/cart");
+// import express from "express";
+// import upload from "../middleware/multer.js";
+// import Cart from "../model/cart.js";
+const Cart = require("../model/cart.js");
+const upload = require("../middleware/multer.js");
 
+const router = express.Router();
 //GET all
 router.get("/", async (req, res) => {
   try {
@@ -13,13 +17,25 @@ router.get("/", async (req, res) => {
 });
 
 //POST new
-router.post("/", async (req, res) => {
+router.post("/", upload.single("image"), async (req, res) => {
   const product = new Cart({
     ...req.body,
   });
   try {
     const result = await product.save();
     res.status(201).json(result);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.patch("/:id", async (req, res) => {
+  try {
+    const result = await Cart.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    });
+
+    res.status(200).json(result);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
