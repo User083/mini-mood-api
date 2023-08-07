@@ -10,6 +10,7 @@ const cors = require("cors");
 async function connect() {
   try {
     await mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
+    app.listen(PORT, () => console.log("Server listening"));
     console.log("Connected to db");
   } catch (error) {
     console.log(error);
@@ -25,4 +26,4 @@ app.get("/", (req, res) => {
 
 app.use("/products", productsRouter);
 app.use("/cart", cartRouter);
-app.listen(PORT, () => console.log("Server running on " + PORT));
+// app.listen(PORT, () => console.log("Server listening"));
