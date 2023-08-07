@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config server.js",
  
-    "build": "npm install && npm run start",
+    "build": "npm install",
 
     "start": "node server.js"
   },
