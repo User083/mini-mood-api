@@ -10,7 +10,7 @@ const cors = require("cors");
 async function connect() {
   try {
     await mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true });
-    app.listen(PORT, () => console.log("Server listening"));
+
     console.log("Connected to db");
   } catch (error) {
     console.log(error);
@@ -19,11 +19,13 @@ async function connect() {
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-connect();
+
 app.get("/", (req, res) => {
   res.send("Welcome to the mini-mood API");
 });
 
 app.use("/products", productsRouter);
 app.use("/cart", cartRouter);
-// app.listen(PORT, () => console.log("Server listening"));
+connect().then(() => {
+  app.listen(PORT, () => console.log("Server listening"));
+});

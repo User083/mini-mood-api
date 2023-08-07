@@ -1,8 +1,6 @@
 {
   "scripts": {
     "dev": "nodemon -r dotenv/config server.js",
- 
-    "build": "npm install",
 
     "start": "node server.js"
   },
